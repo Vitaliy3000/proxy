@@ -1,1 +1,1 @@
-web: proxy --port $PORT --hostname 0.0.0.0 --enable-web-server --plugins proxy.plugin.WebServerPlugin --log-level DEBUG
+web: python app.py --port $PORT --hostname 0.0.0.0 --enable-web-server --plugins proxy.plugin.WebServerPlugin --log-level DEBUG
